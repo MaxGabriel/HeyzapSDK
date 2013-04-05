@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'QuartzCore', 'CoreGraphics', 'Heyzap'
   s.weak_frameworks = 'StoreKit','AdSupport'
-  s.source_files = 'HeyzapDummy.h,m'
+  s.source_files = 'HeyzapDummy.{m,h}'
 
   s.requires_arc = true
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Heyzap"' }
