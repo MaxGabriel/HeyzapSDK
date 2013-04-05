@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '4.3'
   s.resources = "Heyzap.bundle/*.png"
 
-  s.source_files = '*.{m,h}'
+  s.source_files = 'HeyzapDummy.h,m'
 
   s.preserve_paths = 'Heyzap.framework'
 
