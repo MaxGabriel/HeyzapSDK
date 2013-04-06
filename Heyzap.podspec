@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "Heyzap"
-  s.version      = "3.4.34"
+  s.version      = "3.4.35"
   s.summary      = "Heyzap's iOS SDK: Leaderboards, Achievements, and Ads for games."
   s.homepage     = "http://developers.heyzap.com/docs"
   s.license = { :type => 'Commercial', :text => 'See http://www.heyzap.com/legal/terms' }
   s.author       = { "Heyzap" => "integration@heyzap.com" }
-  s.source       = { :git => "https://github.com/MaxGabriel/HeyzapSDK.git", :tag => "3.4.34" }
+  s.source       = { :git => "https://github.com/MaxGabriel/HeyzapSDK.git", :tag => "3.4.35" }
   s.platform     = :ios
-  s.resources = 'Heyzap.bundle/*.png'
+  s.resources = 'Heyzap.bundle'
   
 
   s.preserve_paths = 'Heyzap.framework'
