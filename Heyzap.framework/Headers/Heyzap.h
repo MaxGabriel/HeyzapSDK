@@ -31,3 +31,4 @@
 #import "HZLeaderboardRank.h"
 #import "HZLeaderboardLevel.h"
 #import "HZAdsDelegate.h"
+#import "HZAchievement.h"

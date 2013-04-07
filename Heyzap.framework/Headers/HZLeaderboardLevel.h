@@ -25,16 +25,19 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/** `HZLeaderboardLevel` is the model object describing a level. You shouldn't need to interact with these objects directly; they are returned by Heyzap network requests to be used there.
+ 
+ You can create Leaderboards and check level IDs at https://developers.heyzap.com/dashboard*/
 @interface HZLeaderboardLevel : NSObject <NSCoding>
 
-// The same level ID you would find on the Heyzap Developer website
+
+/** The same level ID you would find at https://developers.heyzap.com/dashboard */
 @property (nonatomic, strong, readonly) NSString *levelID;
 
-// The name of the level
+/** The name of the level */
 @property (nonatomic, strong, readonly) NSString *name;
 
-// What direction the scores are sorted in the leaderboard
+/** What direction the scores are sorted in in the leaderboard. A golf game might sort based on the fewest strokes (lowest first), whereas a game sorting on points would sort highest first. You can configure this value at https://developers.heyzap.com/dashboard */
 @property (nonatomic, readonly) BOOL lowestScoreFirst;
 
 @end
